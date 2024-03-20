@@ -1,0 +1,282 @@
+html{
+  scroll-behavior: smooth;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+}
+nav ul{
+  list-style: none;
+}
+nav li{
+   display: inline-block;
+   padding: 15px;
+   transition: all 0.5s ease-in-out;
+}
+nav li:hover{
+  background-color: deepskyblue;
+  transform: scale(1.1);
+}
+nav li:active{
+  box-shadow: 3px 3px 5px black;
+}
+nav a{
+  display: block;
+  color: ghostwhite;
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav a:hover{
+color: midnightblue;  
+}
+.sticky {
+  display: flex;
+  justify-content: space-between;
+ position: sticky;
+ top: 0;
+ background-color: midnightblue; 
+ z-index: 100;
+ padding: 0;
+}
+.sticky ul {
+  list-style-type: none;
+}
+.sticky li {
+  display: inline-block;
+  padding: 15px;
+}
+.sticky a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+  
+.sticky a:hover {
+  color: midnightblue;
+}
+header{
+  background-color: black;
+}
+header img{
+  margin-top: 10px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+#section1{
+  text-align: center;
+  background-image: url(homebg.jpg);
+  width: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  display: block;
+  text-align: center;
+  line-height: 10px;
+}
+  #section1 h1{
+    color: ghostwhite;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  #section1 p{
+    color: lightskyblue;
+  }
+  #section2{
+    display: block;
+    background-color: midnightblue;
+    padding: 100px;
+    color: ghostwhite;
+  }
+  #section2 ul{
+    list-style: none;
+  }
+  #section2 li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+  }
+  #section2 li:hover{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+  }
+  #section2 a{
+    display: block;
+    text-align: bottom;
+    text-decoration: none;
+    color: ghostwhite;
+    float: both;
+    transition: all 0.5s ease-out;
+  }
+  #section2 a:hover{
+    color: midnightblue;
+  }
+  #section3{
+    display: block;
+    background-color: ghostwhite;
+    padding: 100px;
+    color: midnightblue;
+  }
+  #section3 li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+  }
+  #section3 li:hover{
+    background-color: midnightblue;
+    transform: scale(1.1);
+  }
+  #section3 a{
+    display: block;
+    text-align: bottom;
+    text-decoration: none;
+    color: midnightblue;
+    float: both;
+  }
+  #section3 a:hover{
+      color: ghostwhite;
+  }
+  #section4{
+    display: block;
+    background-color: midnightblue;
+    padding: 100px;
+    color: ghostwhite;
+  }
+  #section4 ul{
+    list-style: none;
+  }
+  #section4 li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+  }
+  #section4 li:hover{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+  }
+  #section4 a{
+    display: block;
+    text-align: bottom;
+    text-decoration: none;
+    color: ghostwhite;
+    float: both;
+    transition: all 0.5s ease-out;
+  }
+  #section4 a:hover{
+    color: midnightblue;
+  }
+  #section5{
+    display: block;
+    background-color: ghostwhite;
+    padding: 100px;
+    color: midnightblue;
+  }
+  #section5 li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+  }
+  #section5 li:hover{
+    background-color: midnightblue;
+    transform: scale(1.1);
+  }
+  #section5 a{
+    display: block;
+    text-align: bottom;
+    text-decoration: none;
+    color: midnightblue;
+    float: both;
+    transition: all 0.5s ease-out;
+  }
+  #section5 a:hover{
+      color: ghostwhite;
+  }
+  #section6{
+    display: block;
+    background-color: midnightblue;
+    padding: 100px;
+    color: ghostwhite;
+  }
+  #section6 ul{
+    list-style: none;
+  }
+  #section6 li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+  }
+  #section6 li:hover{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+  }
+  #section6 a{
+    display: block;
+    text-align: bottom;
+    text-decoration: none;
+    color: ghostwhite;
+    float: both;
+    transition: all 0.5s ease-out;
+  }
+  #section6 a:hover{
+    color: midnightblue;
+  }
+  footerWrap{
+    width: auto;
+  }
+  footer{
+    background-color: ghostwhite;
+    margin: auto;
+    width: 100%;
+    float: bottom;
+    margin-right: 800px;
+    margin-left: 0;
+  }
+  footer p{
+    text-align: center;
+    color: midnightblue;
+  }
+  #section7{
+    display: block;
+    background-color: ghostwhite;
+    padding: 100px;
+    color: midnightblue;
+  }
+  #section7 li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+  }
+  #section7 li:hover{
+    background-color: midnightblue;
+    transform: scale(1.1);
+  }
+  #section7 a{
+    display: block;
+    text-align: bottom;
+    text-decoration: none;
+    color: midnightblue;
+    float: both;
+    transition: all 0.5s ease-out;
+  }
+  #section7 a:hover{
+      color: ghostwhite;
+  }
+  #section7 img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 200px;
+    border: 20px solid midnightblue;
+  }
+  
+  .image-switch{
+    width: 40%;
+    transition: all 0.5s ease;
+    
+  }
+  .image-switch:hover{
+    content: url(IMG_20240229_232144_636.jpg);
+    transform: scale(1.3);
+  }
+ 
