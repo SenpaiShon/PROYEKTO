@@ -73,16 +73,16 @@ header img{
 #section1 h1, p{
   display: block;
   text-align: center;
-  line-height: 10px;
+  line-height: 15px;
 }
 #section1 img{
    display: block;
    margin: 0 auto;
-   width: 40%;
+   width: 60%;
 }
   #section1 h1{
     color: midnightblue;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: underline;
   }
   #section1 p{
