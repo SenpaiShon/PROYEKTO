@@ -76,6 +76,8 @@ header img{
   line-height: 15px;
 }
 #section1 img{
+   border: 20px solid midnightblue;
+   border-radius: 100px;
    display: block;
    margin: 0 auto;
    width: 60%;
