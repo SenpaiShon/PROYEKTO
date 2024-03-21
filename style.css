@@ -66,10 +66,12 @@ header img{
   margin: 0 auto;
 }
 #section1{
-  text-align: center;
+  display: flex;
   background-image: url(homebg.jpg);
   background-size: cover;
   padding: 200px;
+}
+#section1 h1, p{
   display: block;
   text-align: center;
   line-height: 10px;
