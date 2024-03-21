@@ -68,10 +68,10 @@ header img{
 #section1{
   width: auto;
   justify-content: center;
-  display: flex;
+  display: block;
   background-color: ghostwhite;
   background-size: cover;
-  padding: 200px;
+  padding: 100px;
 }
 #section1 h1, p{
   display: block;
