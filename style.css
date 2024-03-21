@@ -70,7 +70,7 @@ header img{
   justify-content: center;
   display: flex;
   background-image: url(homebg.jpg);
-  background-size: auto;
+  background-size: cover;
   padding: 200px;
 }
 #section1 h1, p{
