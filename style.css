@@ -96,6 +96,7 @@ header img{
     background-color: midnightblue;
     padding: 100px;
     color: ghostwhite;
+    text-align: left;
   }
   #section2 ul{
     list-style: none;
@@ -125,6 +126,7 @@ header img{
     background-color: ghostwhite;
     padding: 100px;
     color: midnightblue;
+    text-align: left;
   }
   #section3 li{
     display: inline-block;
@@ -150,6 +152,7 @@ header img{
     background-color: midnightblue;
     padding: 100px;
     color: ghostwhite;
+    text-align: left;
   }
   #section4 ul{
     list-style: none;
@@ -179,6 +182,7 @@ header img{
     background-color: ghostwhite;
     padding: 100px;
     color: midnightblue;
+    text-align: left;
   }
   #section5 li{
     display: inline-block;
@@ -205,6 +209,7 @@ header img{
     background-color: midnightblue;
     padding: 100px;
     color: ghostwhite;
+    text-align: left;
   }
   #section6 ul{
     list-style: none;
