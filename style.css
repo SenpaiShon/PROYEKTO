@@ -69,7 +69,7 @@ header img{
   width: auto;
   justify-content: center;
   display: flex;
-  background-image: url(homebg.jpg);
+  background-color: ghostwhite;
   background-size: cover;
   padding: 200px;
 }
@@ -79,7 +79,7 @@ header img{
   line-height: 10px;
 }
   #section1 h1{
-    color: ghostwhite;
+    color: midnightblue;
     font-size: 10px;
     text-decoration: underline;
   }
