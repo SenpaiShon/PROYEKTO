@@ -75,6 +75,11 @@ header img{
   text-align: center;
   line-height: 10px;
 }
+#section1 img{
+   display: block;
+   margin: 0 auto;
+   width: 40%;
+}
   #section1 h1{
     color: midnightblue;
     font-size: 10px;
