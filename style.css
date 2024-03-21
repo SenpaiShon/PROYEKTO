@@ -68,8 +68,6 @@ header img{
 #section1{
   text-align: center;
   background-image: url(homebg.jpg);
-  width: 70%;
-  background-repeat: no-repeat;
   background-size: cover;
   padding: 200px;
   display: block;
@@ -78,10 +76,11 @@ header img{
 }
   #section1 h1{
     color: ghostwhite;
-    font-size: 30px;
+    font-size: 10px;
     text-decoration: underline;
   }
   #section1 p{
+    font-size: 10px;
     color: lightskyblue;
   }
   #section2{
