@@ -66,11 +66,8 @@ header img{
   margin: 0 auto;
 }
 #section1{
-  width: auto;
-  justify-content: center;
   display: block;
   background-color: ghostwhite;
-  background-size: cover;
   padding: 100px;
 }
 #section1 h1, p{
