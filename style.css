@@ -294,6 +294,29 @@ header img{
     padding: 100px;
     color: ghostwhite;
   }
+  #section8 ul{
+    list-style: none;
+  }
+  #section8 li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+  }
+  #section8 li:hover{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+  }
+  #section8 a{
+    display: block;
+    text-align: bottom;
+    text-decoration: none;
+    color: ghostwhite;
+    float: both;
+    transition: all 0.5s ease-out;
+  }
+  #section8 a:hover{
+    color: midnightblue;
+    }
   #section8 img{
     width: 200px;
     border-radius: 50px;
