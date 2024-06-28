@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         alert("Sign-in successful! Redirecting to dashboard...");
       
         localStorage.setItem('isSignedIn', 'true');
-        window.location.href = "script.js"; 
+        window.location.port = "script.js"; 
     } else {
         alert("Invalid email or password. Please try again.");
     }
