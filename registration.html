@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+  <form class="form">
+    <p class="title">Register</p>
+    <p class="message">Signup now and get full access to our website.</p>
+    
+    <div class="flex">
+      <label>
+        <input class="input" type="text" placeholder="" required="">
+        <span>First Name</span>
+      </label>
+      <label>
+        <input class="input" type="text" placeholder="" required="">
+        <span>Last Name</span>
+      </label>
+    </div>
+    
+    <br>
+
+    <label>
+      <input class="input" type="text" placeholder="" required="">
+      <span>Username</span>
+    </label>
+    
+    <br>
+
+    <label>
+      <input class="input" type="email" placeholder="" required="">
+      <span>Email</span>
+    </label>
+      
+    <br>
+
+    <div class="gender">
+      <label>Gender:</label>
+      <label>
+        <input type="radio" name="gender" value="male" required="">
+        <span>Male</span>
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female" required="">
+        <span>Female</span>
+      </label>
+    </div>
+     <br>
+
+    <div class="birthdate">
+      <label>Birthdate:</label>
+      <div class="flex">
+        <input class="input" type="number" placeholder="YYYY" required="" min="1900" max="2024">
+        <input class="input" type="number" placeholder="MM" required="" min="1" max="12">
+        <input class="input" type="number" placeholder="DD" required="" min="1" max="31">
+      </div>
+    </div>
+  
+    
+    
+    <br>
+
+    <label>
+      <input class="input" type="password" placeholder="" required="">
+      <span>Password</span>
+    </label>
+    
+    <br>
+
+    <label>
+      <input class="input" type="password" placeholder="" required="">
+      <span>Confirm Password</span>
+    </label>
+    
+    <br>
+
+    <button class="submit" id="redirectButton">Submit</button>
+    
+    <p class="signin">Already have an account? <a href="signin.html">Sign in</a></p>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
