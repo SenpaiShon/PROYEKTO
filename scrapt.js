@@ -16,7 +16,7 @@ function handleSignIn(event) {
     const password = document.querySelector('input[type="password"]').value.trim();
 
     if (isUserRegistered(email, password)) {
-        window.location.href = "inde.html";
+        window.location.href = "index.html";
     } else {
         alert("Invalid email or password. Please try again.");
     }
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         alert("Sign-in successful! Redirecting to dashboard...");
       
         localStorage.setItem('isSignedIn', 'true');
-        window.location.href = "registration.html"; 
+        window.location.href = "script.js"; 
     } else {
         alert("Invalid email or password. Please try again.");
     }
