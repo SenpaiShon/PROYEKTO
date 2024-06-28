@@ -16,7 +16,7 @@ function handleSignIn(event) {
     const password = document.querySelector('input[type="password"]').value.trim();
 
     if (isUserRegistered(email, password)) {
-        window.location.href = "inde.html";
+        window.location.href = "index.html";
     } else {
         alert("Invalid email or password. Please try again.");
     }
