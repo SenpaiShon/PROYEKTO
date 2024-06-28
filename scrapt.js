@@ -16,7 +16,7 @@ function handleSignIn(event) {
     const password = document.querySelector('input[type="password"]').value.trim();
 
     if (isUserRegistered(email, password)) {
-        window.location.href = "index.html";
+        window.location.href = "inde.html";
     } else {
         alert("Invalid email or password. Please try again.");
     }
@@ -45,3 +45,33 @@ document.addEventListener('DOMContentLoaded', function() {
     return true
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const signInForm = document.querySelector('.form');
+
+  signInForm.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    const email = document.querySelector('input[type="email"]').value.trim();
+    const password = document.querySelector('input[type="password"]').value.trim();
+
+    if (isUserRegistered(email, password)) {
+        alert("Sign-in successful! Redirecting to dashboard...");
+      
+        localStorage.setItem('isSignedIn', 'true');
+        window.location.href = "registration.html"; 
+    } else {
+        alert("Invalid email or password. Please try again.");
+    }
+  });
+});
+
+function isUserRegistered(email, password) {
+ 
+    const registeredUsers = [
+        { email: "user1@example.com", password: "password1" },
+        { email: "user2@example.com", password: "password2" }
+    ];
+
+    return registeredUsers.some(user => user.email === email && user.password === password);
+}
