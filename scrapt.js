@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         alert("Invalid email or password. Please try again.");
     }
   });
-});
+
 
 function isUserRegistered(email, password) {
  
@@ -75,3 +75,12 @@ function isUserRegistered(email, password) {
 
     return registeredUsers.some(user => user.email === email && user.password === password);
 }
+const users = JSON.parse(localStorage.getItem('users')) || [];
+
+  const user = users.find(user => user.email === email && user.password === password);
+
+  if (user) {
+    alert('Sign-in successful! Welcome, ' + user.firstName);
+    alert('Invalid email or password. Please try again.');
+  }
+});
