@@ -23,10 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     return true;
   }
-});
-
-
-
 
 function validateRegistrationForm() {
     const inputs = document.querySelectorAll('.input');
@@ -49,3 +45,21 @@ function handleFormSubmission(event) {
 }
 const submitButton = document.getElementById('redirectButton');
 submitButton.addEventListener('click', handleFormSubmission);
+const submitButton = document.getElementById('redirectButton');
+submitButton.addEventListener('click', handleFormSubmission);
+
+const users = JSON.parse(localStorage.getItem('users')) || [];
+
+const users = JSON.parse(localStorage.getItem('users')) || [];
+ 
+  if (users.some(user => user.email === email)) {
+    alert('Email already registered. Please sign in or use a different email.');
+    return;
+  }
+
+  users.push(userData);
+
+  localStorage.setItem('users', JSON.stringify(users));
+  alert('Registration successful! Please proceed to sign in.');
+  window.location.href = "signin.html";
+});
